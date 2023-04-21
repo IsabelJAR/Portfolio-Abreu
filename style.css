@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#a-nav, #w-nav, #s-nav, #h-nav{
+  color: black;
+}
+#h-nav:hover{
+  font-weight: bold;
+}
+#a-nav:hover{
+  color: #e4995b;
+  font-weight: bold;
+}
+#w-nav:hover{
+  color: #378989;
+  font-weight: bold;
+}
+#s-nav:hover{
+  color: #b74987;
+  font-weight: bold;
+}
+
+
+/* TESTING TESTING 123 */
+#about-me{
+  background-color: #e4995b;
+}
+#work-job{
+  background-color: #378989;
+}
+#schooling{
+  background-color: #b74987;
+}
+footer{
+  background-color: #e9e7e7;
+}
+.j-sec{
+  background-color: #e9e7e7;
+}
+
+.nav{
+  font-size: 20px;
+}
