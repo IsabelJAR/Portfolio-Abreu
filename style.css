@@ -39,8 +39,10 @@ html {
 footer{
   background-color: #e9e7e7;
 }
-.j-sec{
+
+div.j-sec{
   background-color: #e9e7e7;
+  border-radius: 2%;
 }
 
 .row{
@@ -49,15 +51,27 @@ footer{
 }
 #subtitle{
   font-family: 'Send Flowers', cursive;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 #captions{
   font-size: 20px;
+  z-index: 100;
 }
 
 #s-img{
-  max-height: 500px;
-  max-width: 400px;
+  max-height: 300px;
+  max-width: 300px;
+  vertical-align: middle;
+  min-height: 200px;
+  min-width: 200px;
+}
+
+#wpic{
+  transition: transform .2s;
+  z-index: -10;
+}
+#wpic:hover{
+  transform: scale(1.1);
 }
 
 div.card{
